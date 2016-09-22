@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity implements Session.SessionLi
     @Override
     public void onDisconnected(Session session) {
         //When the session is disconnected.
-        session = null;
+        this.session = null;
     }
 
     @Override
@@ -136,7 +136,9 @@ public class MainActivity extends AppCompatActivity implements Session.SessionLi
 
     @Override
     public void onStreamDropped(Session session, Stream stream) {
-
+        this.session = null;
+        publisherLayout.removeAllViews();
+        subscriberLayout.removeAllViews();
     }
 
     @Override
