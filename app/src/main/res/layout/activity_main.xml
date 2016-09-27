@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mpenberthy.webrtc_android.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/subscriberLayout"></FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/publisherContainerLayout"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="132dp"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/publisherLayout"></FrameLayout>
+    </FrameLayout>
+
+</RelativeLayout>

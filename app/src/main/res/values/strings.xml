@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WebRTC_Android</string>
+
+
+    <string name="sessionId">1_MX40NTY5MDI0Mn5-MTQ3NDQ5MTc0NzgzOX5tbkZqcGV2WVB3ZE43UU9TeU1Cck5MMEl-UH4</string>
+    <string name="token">T1==cGFydG5lcl9pZD00NTY5MDI0MiZzaWc9ZDViOTE3MmM4OWM0OTYwMDcwMDA2NmY1ODU5ZDZjYjA5NmY4NzZiZTpzZXNzaW9uX2lkPTFfTVg0ME5UWTVNREkwTW41LU1UUTNORFE1TVRjME56Z3pPWDV0YmtacWNHVjJXVkIzWkU0M1VVOVRlVTFDY2s1TU1FbC1VSDQmY3JlYXRlX3RpbWU9MTQ3NDQ5MTc3NCZub25jZT0wLjc3NjcyODA5NzU4MjIzNTkmcm9sZT1wdWJsaXNoZXImZXhwaXJlX3RpbWU9MTQ3NzA4Mzg4NQ==</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="api_key">45690242</string>
+</resources>
